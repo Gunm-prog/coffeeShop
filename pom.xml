@@ -2,17 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+	<modules>
+		<module>coffeeShopBackend</module>
+	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> lookup parent from repository
 	</parent>
 	<groupId>com.emilie</groupId>
 	<artifactId>coffeeShop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>coffeeShop</name>
-	<description>Coffe Shop project for Spring Boot</description>
+	<description>Coffee Shop project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.1</spring-cloud.version>
@@ -25,18 +29,18 @@
 		</dependency>
 
 
-		<!--<dependency>
+	    <dependency>
 			<groupId>org.mapstruct</groupId>
 			<artifactId>mapstruct</artifactId>
 			<version> </version>
-			&lt;!&ndash;<version>${org.mapstruct.version}</version>&ndash;&gt;
+			<version>${org.mapstruct.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mapstruct</groupId>
 			<artifactId>mapstruct-processor</artifactId>
-			&lt;!&ndash;<version>${org.mapstruct.version}</version>&ndash;&gt;
+			<version>${org.mapstruct.version}</version>
 			<scope>provided</scope>
-		</dependency>-->
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -195,3 +199,4 @@
 	</build>
 
 </project>
+
