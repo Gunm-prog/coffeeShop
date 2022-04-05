@@ -1,4 +1,4 @@
-package com.emilie.coffeeShop.Models.Entities;
+package com.emilie.coffeeShopBackend.Models.Entities;
 
 
 import lombok.Data;

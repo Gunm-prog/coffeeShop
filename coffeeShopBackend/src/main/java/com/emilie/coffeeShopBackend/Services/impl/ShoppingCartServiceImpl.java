@@ -88,7 +88,7 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
         if (!optionalShoppingCart.isPresent()){
             throw new ShoppingCartNotFoundException( " Shopping Cart not found " );
         }
-        return ;
+        return null;
     }
 
     @Override
